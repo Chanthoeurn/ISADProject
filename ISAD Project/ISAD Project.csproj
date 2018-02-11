@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form\formMain.cs">
+    <Compile Include="formMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\formMain.Designer.cs">
+    <Compile Include="formMain.Designer.cs">
       <DependentUpon>formMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formSignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSignIn.Designer.cs">
+      <DependentUpon>formSignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formWelcomeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formWelcomeScreen.Designer.cs">
+      <DependentUpon>formWelcomeScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -60,8 +72,14 @@
     <Compile Include="UserControl\ServicesControl.Designer.cs">
       <DependentUpon>ServicesControl.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form\formMain.resx">
+    <EmbeddedResource Include="formMain.resx">
       <DependentUpon>formMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSignIn.resx">
+      <DependentUpon>formSignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formWelcomeScreen.resx">
+      <DependentUpon>formWelcomeScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -95,6 +113,8 @@
     <Content Include="Asset\computer.png" />
     <Content Include="Asset\Computer1.png" />
     <Content Include="Asset\desktop.png" />
+    <Content Include="Asset\desktop128.png" />
+    <Content Include="Asset\desktop256.png" />
     <Content Include="Asset\dropbutton %281%29.png" />
     <Content Include="Asset\employees.png" />
     <Content Include="Asset\Exit %282%29.png" />
@@ -112,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Class\" />
+    <Folder Include="Form\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
