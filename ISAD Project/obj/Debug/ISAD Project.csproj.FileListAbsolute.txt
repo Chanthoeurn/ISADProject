@@ -1,0 +1,10 @@
+c:\users\pc\documents\visual studio 2012\Projects\ISAD Project\ISAD Project\bin\Debug\ISAD Project.exe.config
+c:\users\pc\documents\visual studio 2012\Projects\ISAD Project\ISAD Project\bin\Debug\ISAD Project.exe
+c:\users\pc\documents\visual studio 2012\Projects\ISAD Project\ISAD Project\bin\Debug\ISAD Project.pdb
+c:\users\pc\documents\visual studio 2012\Projects\ISAD Project\ISAD Project\obj\Debug\ISAD Project.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2012\Projects\ISAD Project\ISAD Project\obj\Debug\ISAD_Project.Form1.resources
+c:\users\pc\documents\visual studio 2012\Projects\ISAD Project\ISAD Project\obj\Debug\ISAD_Project.Properties.Resources.resources
+c:\users\pc\documents\visual studio 2012\Projects\ISAD Project\ISAD Project\obj\Debug\ISAD Project.csproj.GenerateResource.Cache
+c:\users\pc\documents\visual studio 2012\Projects\ISAD Project\ISAD Project\obj\Debug\ISAD Project.exe
+c:\users\pc\documents\visual studio 2012\Projects\ISAD Project\ISAD Project\obj\Debug\ISAD Project.pdb
+c:\users\pc\documents\visual studio 2012\Projects\ISAD Project\ISAD Project\obj\Debug\ISAD_Project.ServicesControl.resources
