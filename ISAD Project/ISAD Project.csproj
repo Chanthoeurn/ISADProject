@@ -64,12 +64,18 @@
     <Compile Include="formWelcomeScreen.Designer.cs">
       <DependentUpon>formWelcomeScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControl\ServicesControl.cs">
+    <Compile Include="UserControl\Service\openServicesControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControl\ServicesControl.Designer.cs">
+    <Compile Include="UserControl\Service\openServicesControl.Designer.cs">
+      <DependentUpon>openServicesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControl\Service\ServicesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\Service\ServicesControl.Designer.cs">
       <DependentUpon>ServicesControl.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="formMain.resx">
@@ -90,7 +96,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UserControl\ServicesControl.resx">
+    <EmbeddedResource Include="UserControl\Service\openServicesControl.resx">
+      <DependentUpon>openServicesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\Service\ServicesControl.resx">
       <DependentUpon>ServicesControl.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">

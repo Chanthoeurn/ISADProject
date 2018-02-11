@@ -10,3 +10,4 @@ c:\users\pc\documents\visual studio 2012\Projects\ISAD Project\ISAD Project\obj\
 c:\users\pc\documents\visual studio 2012\Projects\ISAD Project\ISAD Project\obj\Debug\ISAD_Project.formMain.resources
 C:\Users\PC\Documents\Visual Studio 2012\Projects\ISAD Project\ISAD Project\obj\Debug\ISAD_Project.formWelcomeScreen.resources
 C:\Users\PC\Documents\Visual Studio 2012\Projects\ISAD Project\ISAD Project\obj\Debug\ISAD_Project.formSignIn.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\ISAD Project\ISAD Project\obj\Debug\ISAD_Project.openServicesControl.resources
