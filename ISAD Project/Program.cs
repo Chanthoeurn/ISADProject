@@ -16,7 +16,7 @@ namespace ISAD_Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formSignIn());
+            Application.Run(new formMain());
         }
     }
 }

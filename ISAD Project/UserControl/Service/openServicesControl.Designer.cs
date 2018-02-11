@@ -49,7 +49,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(14, 56);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(940, 452);
+            this.dataGridView1.Size = new System.Drawing.Size(875, 451);
             this.dataGridView1.TabIndex = 0;
             // 
             // label1
@@ -78,7 +78,7 @@
             this.btnAddServices.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddServices.Font = new System.Drawing.Font("Ubuntu", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddServices.ForeColor = System.Drawing.Color.White;
-            this.btnAddServices.Location = new System.Drawing.Point(372, 21);
+            this.btnAddServices.Location = new System.Drawing.Point(336, 24);
             this.btnAddServices.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAddServices.Name = "btnAddServices";
             this.btnAddServices.Size = new System.Drawing.Size(100, 28);
@@ -94,7 +94,7 @@
             this.btnModifyServices.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModifyServices.Font = new System.Drawing.Font("Ubuntu", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnModifyServices.ForeColor = System.Drawing.Color.White;
-            this.btnModifyServices.Location = new System.Drawing.Point(491, 21);
+            this.btnModifyServices.Location = new System.Drawing.Point(455, 24);
             this.btnModifyServices.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnModifyServices.Name = "btnModifyServices";
             this.btnModifyServices.Size = new System.Drawing.Size(100, 28);
@@ -110,7 +110,7 @@
             this.btnDeleteServices.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeleteServices.Font = new System.Drawing.Font("Ubuntu", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteServices.ForeColor = System.Drawing.Color.White;
-            this.btnDeleteServices.Location = new System.Drawing.Point(599, 20);
+            this.btnDeleteServices.Location = new System.Drawing.Point(563, 23);
             this.btnDeleteServices.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDeleteServices.Name = "btnDeleteServices";
             this.btnDeleteServices.Size = new System.Drawing.Size(100, 28);
@@ -124,10 +124,10 @@
             this.txtSearchService.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSearchService.Font = new System.Drawing.Font("Ubuntu", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearchService.ForeColor = System.Drawing.Color.White;
-            this.txtSearchService.Location = new System.Drawing.Point(718, 16);
+            this.txtSearchService.Location = new System.Drawing.Point(666, 15);
             this.txtSearchService.Multiline = true;
             this.txtSearchService.Name = "txtSearchService";
-            this.txtSearchService.Size = new System.Drawing.Size(236, 29);
+            this.txtSearchService.Size = new System.Drawing.Size(221, 29);
             this.txtSearchService.TabIndex = 15;
             this.txtSearchService.TextChanged += new System.EventHandler(this.txtSearchService_TextChanged);
             // 
@@ -138,7 +138,7 @@
             this.shapeContainer1.Name = "shapeContainer1";
             this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape1});
-            this.shapeContainer1.Size = new System.Drawing.Size(967, 519);
+            this.shapeContainer1.Size = new System.Drawing.Size(914, 527);
             this.shapeContainer1.TabIndex = 16;
             this.shapeContainer1.TabStop = false;
             // 
@@ -146,16 +146,17 @@
             // 
             this.lineShape1.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.lineShape1.Name = "lineShape1";
-            this.lineShape1.X1 = 718;
-            this.lineShape1.X2 = 951;
-            this.lineShape1.Y1 = 48;
-            this.lineShape1.Y2 = 48;
+            this.lineShape1.X1 = 666;
+            this.lineShape1.X2 = 885;
+            this.lineShape1.Y1 = 47;
+            this.lineShape1.Y2 = 47;
             // 
             // openServicesControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(254)))), ((int)(((byte)(255)))));
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.txtSearchService);
             this.Controls.Add(this.btnDeleteServices);
             this.Controls.Add(this.btnModifyServices);
@@ -164,8 +165,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.shapeContainer1);
+            this.MaximumSize = new System.Drawing.Size(916, 529);
+            this.MinimumSize = new System.Drawing.Size(916, 529);
             this.Name = "openServicesControl";
-            this.Size = new System.Drawing.Size(967, 519);
+            this.Size = new System.Drawing.Size(914, 527);
+            this.Load += new System.EventHandler(this.openServicesControl_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

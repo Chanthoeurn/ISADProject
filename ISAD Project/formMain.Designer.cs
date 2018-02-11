@@ -13,11 +13,13 @@
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
+            
+                if (disposing && (components != null))
+                {
+                    components.Dispose();
+                }
+                base.Dispose(disposing);
+
         }
 
         #region Windows Form Designer generated code
@@ -56,12 +58,15 @@
             this.label6 = new System.Windows.Forms.Label();
             this.lblUser = new System.Windows.Forms.Label();
             this.btnSignOut = new System.Windows.Forms.Button();
+            this.panelMain = new System.Windows.Forms.Panel();
+            this.openServicesControl1 = new ISAD_Project.openServicesControl();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureImageUser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panelMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -280,11 +285,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Quicksand", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Transparent;
             this.label2.Location = new System.Drawing.Point(23, 75);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(183, 28);
+            this.label2.Size = new System.Drawing.Size(179, 24);
             this.label2.TabIndex = 13;
             this.label2.Text = "Bcs Computer Shop";
             // 
@@ -351,11 +356,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Dancing Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Bradley Hand ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(47)))), ((int)(((byte)(73)))));
-            this.label5.Location = new System.Drawing.Point(121, 45);
+            this.label5.Location = new System.Drawing.Point(95, 48);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(172, 23);
+            this.label5.Size = new System.Drawing.Size(207, 20);
             this.label5.TabIndex = 3;
             this.label5.Text = "services management sytem.";
             // 
@@ -426,12 +431,29 @@
             this.btnSignOut.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSignOut.UseVisualStyleBackColor = true;
             // 
+            // panelMain
+            // 
+            this.panelMain.Controls.Add(this.openServicesControl1);
+            this.panelMain.Location = new System.Drawing.Point(258, 96);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(1003, 517);
+            this.panelMain.TabIndex = 1;
+            // 
+            // openServicesControl1
+            // 
+            this.openServicesControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(254)))), ((int)(((byte)(255)))));
+            this.openServicesControl1.Location = new System.Drawing.Point(4, 0);
+            this.openServicesControl1.Name = "openServicesControl1";
+            this.openServicesControl1.Size = new System.Drawing.Size(1200, 760);
+            this.openServicesControl1.TabIndex = 7;
+            // 
             // formMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1294, 660);
+            this.Controls.Add(this.panelMain);
             this.Controls.Add(this.btnSignOut);
             this.Controls.Add(this.lblUser);
             this.Controls.Add(this.label6);
@@ -456,6 +478,7 @@
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureImageUser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panelMain.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -490,6 +513,8 @@
         private System.Windows.Forms.PictureBox pictureImageUser;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Panel slidePanel;
+        private System.Windows.Forms.Panel panelMain;
+        private openServicesControl openServicesControl1;
     }
 }
 

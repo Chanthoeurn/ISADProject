@@ -25,5 +25,11 @@ namespace ISAD_Project
                 txtSearchService.ForeColor = Color.Silver;
             }
         }
+
+        private void openServicesControl_Load(object sender, EventArgs e)
+        {
+            this.Width = this.Parent.Width;
+            this.Height = this.Parent.Height;
+        }
     }
 }

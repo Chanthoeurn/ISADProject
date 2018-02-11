@@ -15,15 +15,26 @@ namespace ISAD_Project
         public formMain()
         {
             InitializeComponent();
+            //Add Main Panel
+           // panelMain.Controls.Clear();
+          //  panelMain.Controls.Add(new openServicesControl());
+
 
             slidePanel.Height = btnServices.Height;
             slidePanel.Top = btnServices.Top;
+
+           
         }
 
         private void btnServices_Click(object sender, EventArgs e)
         {
+            //Add openServicesControl
+            panelMain.Controls.Clear();
+            panelMain.Controls.Add(new ServicesControl());
+
             slidePanel.Height = btnServices.Height;
             slidePanel.Top = btnServices.Top;
+            
         }
 
         private void btnCustomer_Click(object sender, EventArgs e)
