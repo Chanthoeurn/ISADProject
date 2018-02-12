@@ -36,6 +36,7 @@
     <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,29 +47,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="formMain.cs">
+    <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formMain.Designer.cs">
-      <DependentUpon>formMain.cs</DependentUpon>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="formSignIn.cs">
+    <Compile Include="FormSignIn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formSignIn.Designer.cs">
-      <DependentUpon>formSignIn.cs</DependentUpon>
+    <Compile Include="FormSignIn.Designer.cs">
+      <DependentUpon>FormSignIn.cs</DependentUpon>
     </Compile>
-    <Compile Include="formWelcomeScreen.cs">
+    <Compile Include="FormWelcomeScreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formWelcomeScreen.Designer.cs">
-      <DependentUpon>formWelcomeScreen.cs</DependentUpon>
+    <Compile Include="FormWelcomeScreen.Designer.cs">
+      <DependentUpon>FormWelcomeScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl\Service\openServicesControl.cs">
+    <Compile Include="OpenServicesControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControl\Service\openServicesControl.Designer.cs">
-      <DependentUpon>openServicesControl.cs</DependentUpon>
+    <Compile Include="OpenServicesControl.Designer.cs">
+      <DependentUpon>OpenServicesControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,14 +79,17 @@
     <Compile Include="UserControl\Service\ServicesControl.Designer.cs">
       <DependentUpon>ServicesControl.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="formMain.resx">
-      <DependentUpon>formMain.cs</DependentUpon>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formSignIn.resx">
-      <DependentUpon>formSignIn.cs</DependentUpon>
+    <EmbeddedResource Include="FormSignIn.resx">
+      <DependentUpon>FormSignIn.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formWelcomeScreen.resx">
-      <DependentUpon>formWelcomeScreen.cs</DependentUpon>
+    <EmbeddedResource Include="FormWelcomeScreen.resx">
+      <DependentUpon>FormWelcomeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenServicesControl.resx">
+      <DependentUpon>OpenServicesControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -96,9 +100,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UserControl\Service\openServicesControl.resx">
-      <DependentUpon>openServicesControl.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UserControl\Service\ServicesControl.resx">
       <DependentUpon>ServicesControl.cs</DependentUpon>
     </EmbeddedResource>

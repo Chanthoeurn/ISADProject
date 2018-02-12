@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ISAD_Project
 {
-    public partial class formWelcomeScreen : Form
+    public partial class FormWelcomeScreen : Form
     {
-        public formWelcomeScreen()
+        public FormWelcomeScreen()
         {
             InitializeComponent();
         }

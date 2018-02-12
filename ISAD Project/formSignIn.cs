@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ISAD_Project
 {
-    public partial class formSignIn : Form
+    public partial class FormSignIn : Form
     {
-        public formSignIn()
+        public FormSignIn()
         {
             InitializeComponent();
         }

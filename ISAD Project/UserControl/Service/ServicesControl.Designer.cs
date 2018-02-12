@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ServicesControl));
-            this.panel1 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
@@ -45,7 +44,6 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.button11 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel8.SuspendLayout();
@@ -57,27 +55,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.panel11);
-            this.panel1.Controls.Add(this.panel9);
-            this.panel1.Controls.Add(this.panel8);
-            this.panel1.Controls.Add(this.panel7);
-            this.panel1.Controls.Add(this.panel6);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1001, 515);
-            this.panel1.TabIndex = 0;
-            // 
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel11.Controls.Add(this.label8);
-            this.panel11.Location = new System.Drawing.Point(691, 138);
+            this.panel11.Location = new System.Drawing.Point(698, 127);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(196, 37);
-            this.panel11.TabIndex = 13;
+            this.panel11.Size = new System.Drawing.Size(196, 35);
+            this.panel11.TabIndex = 18;
             // 
             // label8
             // 
@@ -94,10 +79,10 @@
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel9.Controls.Add(this.label7);
-            this.panel9.Location = new System.Drawing.Point(113, 138);
+            this.panel9.Location = new System.Drawing.Point(120, 127);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(196, 37);
-            this.panel9.TabIndex = 11;
+            this.panel9.Size = new System.Drawing.Size(196, 35);
+            this.panel9.TabIndex = 16;
             // 
             // label7
             // 
@@ -117,10 +102,10 @@
             this.panel8.Controls.Add(this.pictureBox5);
             this.panel8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel8.ForeColor = System.Drawing.Color.Silver;
-            this.panel8.Location = new System.Drawing.Point(691, 138);
+            this.panel8.Location = new System.Drawing.Point(698, 127);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(196, 238);
-            this.panel8.TabIndex = 14;
+            this.panel8.Size = new System.Drawing.Size(196, 236);
+            this.panel8.TabIndex = 19;
             // 
             // button14
             // 
@@ -154,10 +139,10 @@
             this.panel7.Controls.Add(this.pictureBox4);
             this.panel7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel7.ForeColor = System.Drawing.Color.Silver;
-            this.panel7.Location = new System.Drawing.Point(404, 138);
+            this.panel7.Location = new System.Drawing.Point(411, 127);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(196, 238);
-            this.panel7.TabIndex = 12;
+            this.panel7.Size = new System.Drawing.Size(196, 236);
+            this.panel7.TabIndex = 17;
             // 
             // panel10
             // 
@@ -210,10 +195,10 @@
             this.panel6.Controls.Add(this.pictureBox3);
             this.panel6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel6.ForeColor = System.Drawing.Color.Silver;
-            this.panel6.Location = new System.Drawing.Point(113, 138);
+            this.panel6.Location = new System.Drawing.Point(120, 127);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(196, 238);
-            this.panel6.TabIndex = 10;
+            this.panel6.Size = new System.Drawing.Size(196, 236);
+            this.panel6.TabIndex = 15;
             // 
             // button11
             // 
@@ -241,14 +226,19 @@
             // 
             // ServicesControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(254)))), ((int)(((byte)(255)))));
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel11);
+            this.Controls.Add(this.panel9);
+            this.Controls.Add(this.panel8);
+            this.Controls.Add(this.panel7);
+            this.Controls.Add(this.panel6);
+            this.Font = new System.Drawing.Font("Ubuntu", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ServicesControl";
-            this.Size = new System.Drawing.Size(1001, 515);
-            this.panel1.ResumeLayout(false);
+            this.Size = new System.Drawing.Size(1003, 517);
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
             this.panel9.ResumeLayout(false);
@@ -267,7 +257,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel9;
@@ -283,6 +272,7 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.PictureBox pictureBox3;
+
 
 
     }

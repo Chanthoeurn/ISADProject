@@ -10,15 +10,20 @@ using System.Windows.Forms;
 
 namespace ISAD_Project
 {
-    public partial class formMain : Form
+    public partial class FormMain : Form
     {
-        public formMain()
+        private OpenServicesControl openservicescontrol = new OpenServicesControl();
+        private ServicesControl servicescontrol = new ServicesControl();
+
+       
+        public FormMain()
         {
             InitializeComponent();
             //Add Main Panel
-           // panelMain.Controls.Clear();
-          //  panelMain.Controls.Add(new openServicesControl());
-
+            panelMain.Controls.Clear();
+            panelMain.Controls.Add(servicescontrol);
+            servicescontrol.Dock = DockStyle.Fill;
+            
 
             slidePanel.Height = btnServices.Height;
             slidePanel.Top = btnServices.Top;

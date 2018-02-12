@@ -1,6 +1,6 @@
 ﻿namespace ISAD_Project
 {
-    partial class formMain
+    partial class FormMain
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formMain));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnReport = new System.Windows.Forms.Button();
             this.btnAccount = new System.Windows.Forms.Button();
@@ -59,14 +59,12 @@
             this.lblUser = new System.Windows.Forms.Label();
             this.btnSignOut = new System.Windows.Forms.Button();
             this.panelMain = new System.Windows.Forms.Panel();
-            this.openServicesControl1 = new ISAD_Project.openServicesControl();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureImageUser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panelMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -433,19 +431,10 @@
             // 
             // panelMain
             // 
-            this.panelMain.Controls.Add(this.openServicesControl1);
             this.panelMain.Location = new System.Drawing.Point(258, 96);
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(1003, 517);
             this.panelMain.TabIndex = 1;
-            // 
-            // openServicesControl1
-            // 
-            this.openServicesControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(254)))), ((int)(((byte)(255)))));
-            this.openServicesControl1.Location = new System.Drawing.Point(4, 0);
-            this.openServicesControl1.Name = "openServicesControl1";
-            this.openServicesControl1.Size = new System.Drawing.Size(1200, 760);
-            this.openServicesControl1.TabIndex = 7;
             // 
             // formMain
             // 
@@ -478,7 +467,6 @@
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureImageUser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panelMain.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -514,7 +502,6 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Panel slidePanel;
         private System.Windows.Forms.Panel panelMain;
-        private openServicesControl openServicesControl1;
     }
 }
 
